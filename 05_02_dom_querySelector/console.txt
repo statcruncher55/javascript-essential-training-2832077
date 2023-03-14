@@ -1,0 +1,34 @@
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+
+
+-- same as css targeting
+
+document.querySelector("main")
+
+document.querySelector(".maincontent")
+
+document.querySelector("main li:last-child")
+
+
+document.querySelectorAll("main li")
+- returns a node list
+- can also do for loops on this node list
+
+document.querySelectorAll("main li").forEach(item => item.style.backgroundColor = "red")
+
+document.querySelectorAll("main li:last-child").forEach(item => item.style.backgroundColor = "blue")
+
+
+
+** Older methods **
+
+element.getElementsByClassName()
+
+document.getElementById()
+
+
+
+
+
+
