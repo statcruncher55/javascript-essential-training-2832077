@@ -5,16 +5,26 @@
 
 let backpackContents = ["piggy", "headlamp", "pen"];
 
+// console.log(backpackContents.join(", "));
+
+// backpackContents.push("pencil");
+
+// backpackContents.unshift("paper");
+
+// backpackContents.shift();
+
+// backpackContents.pop();
+
+backpackContents.forEach(function (item) {
+  item = `<li>${item}</li>`;
+  console.log(item);
+});
+
 console.log(backpackContents);
 
-// backpackContents.forEach(function (item) {
-//   item = `<li>${item}</li>`;
-//   console.log(item);
-// });
-
-// let longItems = backpackContents.find(function (item) {
-//   if (item.length >= 5) {
-//     return item;
-//   }
-// });
-// console.log("longItems:", longItems);
+let longItems = backpackContents.find(function (item) {
+  if (item.length >= 5) {
+    return item;
+  }
+});
+console.log("longItems:", longItems);

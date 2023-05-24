@@ -14,3 +14,7 @@ console.log(`let c: ${c} (${typeof c})`);
 let result = a + b;
 
 console.log("Result: ", result);
+
+console.log("Result 2:", a);
+
+console.log("Result 2:", ++a);

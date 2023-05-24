@@ -6,6 +6,7 @@
 
 import Backpack from "./Backpack.js";
 
+// prettier-ignore
 const everydayPack = new Backpack(
   "Everyday Backpack",
   30,
@@ -18,6 +19,7 @@ const everydayPack = new Backpack(
   "../assets/images/everyday.svg"
 );
 
+// prettier-ignore
 const content = `
   <figure class="backpack__image">
     <img src=${everydayPack.image} alt="" loading="lazy" />

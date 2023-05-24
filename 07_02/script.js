@@ -7,4 +7,12 @@ let item = "flashlight";
 
 const collection = ["Piggy", item, 5, true];
 
+console.log(collection[1]);
+
 console.log(collection);
+
+collection[collection.length] = "new item";
+
+console.log(collection);
+
+console.log(collection.join);

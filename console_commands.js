@@ -81,3 +81,9 @@ document.querySelector(".site-title").style.color;
 
 document.querySelector(".site-title").style.color = "purple";
 // creates new inline css on that element
+
+document.querySelector(".site-title").style.backgroundColor = "pink";
+// NOTE THAT ALL THE CSS ELEMENTS HAVE BEEN CAMEL CASED
+// THIS IS BECAUSE JAVASCRIPT DOESN'T LIKE "-" TO BE IN VARIABLE NAMES
+
+document.querySelector(".site-title").innerHTML = "TEST";
